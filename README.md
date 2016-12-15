@@ -52,6 +52,7 @@ To compile Zeal run `qmake` and then `make`. Linux users can install Zeal with `
 * `brew install sqlite libarchive`
 * `/usr/local/opt/qt5/bin/qmake -makefile`
 * `make`
+* `/usr/local/opt/qt5/bin/macdeployqt bin/Zeal.app`
 * `cp -r bin/Zeal.app /Applications`
 * add `alias zeal='/Applications/Zeal.app/Contents/MacOS/Zeal'` to your `.zshrc` or `.bashrc` to have cli access to zeal.
 
